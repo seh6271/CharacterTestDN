@@ -46,10 +46,10 @@ public class Punch : MonoBehaviour {
 	{
 		if (gameObject.tag == "P1") 
 		{
-			if (Input.GetKeyDown (KeyCode.D)) {
+			if (Input.GetKeyDown (KeyCode.E)) {
 				RERB.AddRelativeForce (new Vector3 (0.0f, 0.0f, punchForce));
 			}
-			if (Input.GetKeyDown (KeyCode.A)) {
+			if (Input.GetKeyDown (KeyCode.Q)) {
 				LERB.AddRelativeForce (new Vector3 (0.0f, 0.0f, punchForce));
 			}
 		}
